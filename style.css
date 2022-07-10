@@ -1,0 +1,179 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #FFFF;
+    padding: 0%;
+    margin: 0%;
+}
+
+#bar-one {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    padding: 20px 70px;
+    margin: 0%;
+}
+
+.logo {
+    display: inline-flex;
+    flex: none;
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-right:auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links a {
+    display: inline-flex;
+    flex: auto;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#bar-two {
+    background-color: #1F2937;
+    margin: 0%;
+    display: flex;
+    text-align: start;
+    align-items: center;
+}
+
+#bar-two-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-right: 40px;
+    align-items: flex-start;
+}
+
+.bar-two-header {
+    display: inline-flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    justify-content: flex-end;
+}
+
+.two-caption {
+    display: flex;
+    flex-grow: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: left;
+    padding: 1em 0;
+}
+
+.top-button {
+    padding: 0.6em 2em;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+    cursor: pointer;
+}
+
+img {
+    display: inline-flex;
+    flex: auto;
+    border: 5px solid #1F2937;
+    align-items: center;
+    border-radius: 15px;
+    margin: 100px 250px 100px 100px;
+    width: 25%;
+}
+
+#bar-three {
+    background-color: #F9FAF8;
+    margin: 0%;
+    align-items: center;
+}
+
+.bar-three-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.four-raptors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+}
+
+.four-raptors img {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #3882F6;
+    margin: 5px 20px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: justify;
+    width: 400px;
+    height: 400px;
+    gap: 8px;
+    object-fit: cover;
+}
+
+#bar-four {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 150px;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.speaker {
+    font-size: 30px;
+    text-align: end;
+    font-weight: bolder;
+    padding-top: 1em;
+}
+
+#bar-five {
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    padding: 10px 75px;
+    margin: 50px 200px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.bar-five-text {
+    flex: 1;
+    color: #F9FAF8;
+    text-align: left;  
+}
+
+.bottom-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color:#1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+}
